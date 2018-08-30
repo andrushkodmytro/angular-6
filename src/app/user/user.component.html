@@ -1,0 +1,14 @@
+<div class="card">
+    <img class="card-img-top" src=".../100px180/" alt="Foto image">
+    <div class="card-body">
+      <h5 class="card-title">{{user.name}}</h5>
+      <p class="card-text">{{user.age}}</p>
+      <button class="btn btn-primary" (click)='changeAge()'>
+        Click
+      </button>
+      <button href="#" class="btn btn-danger" (click)='removeUser(user)'>
+        Delete
+      </button>
+    </div>
+  </div>
+  <!-- <app-new [name]="name"></app-new> -->

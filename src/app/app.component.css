@@ -1,0 +1,36 @@
+
+.container-fluid{
+    background-color: brown;
+    padding: 25px;
+}
+.myforms{
+    background-color: orange;
+    padding: 20px 200px;
+}
+.myforms input{
+    margin:5px 0;
+}
+h1{
+    background-color: brown;
+    padding: 20px;
+    color:white;
+    margin:0;
+}
+.menu{
+    background-color: orangered;
+    padding:10px;
+}
+.menu a{
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+    font-family:Verdana;
+    color:white;
+    display:inline-block;
+    padding:10px;
+    
+}
+.menu a.active{
+    background-color: orange;
+    color:black;
+}

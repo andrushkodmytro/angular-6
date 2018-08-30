@@ -1,0 +1,12 @@
+<div class='wrap'>
+  <div [style.color]='color'>ParentComponent</div>
+  <input type="text" #inp>
+  <button class='btn btn-sm btn-info' 
+  (click)=changeColor(inp.value)>
+  ChangeColor
+  </button>
+</div>
+<app-child>
+  <span>Send data:</span>
+  <div class="mydiv">{{data}}</div>
+</app-child>

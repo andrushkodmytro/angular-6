@@ -1,0 +1,13 @@
+<p>
+  new works!
+  {{value}}
+  <ng-content select='.p'></ng-content>
+  end new component
+  <ng-content select='div'></ng-content>
+</p>
+<div [class]='myclass'>TextDiv</div>
+<div [style.color]='color'>StyleColor</div>
+<!-- <input type="text" (input)=changeColor($event.target.value)> -->
+<!-- <input type="text" #inp> -->
+<!-- <button (click)=changeColor(inp.value)>Change</button> -->
+<input type="text" (keydown.control.shift.enter)="changeColor('orange')">
