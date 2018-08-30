@@ -11,34 +11,7 @@
   <!-- <h2>Count:{{counter}}</h2> -->
   <div class="container-fluid">
     <!-- <button class='btn btn-success'>Button</button> -->
-    <div class="myforms">
-      <input 
-    type='text' 
-    class='form-control'
-    placeholder="userName"
-    [(ngModel)]="userName"
-    >
-    <input 
-    type='text' 
-    class='form-control'
-    placeholder="userAge"
-    [(ngModel)]="userAge"
-    >
-    <input 
-    type="button" 
-    class='btn btn-success'
-    value='addUser'
-    (click)='addUser(userName,userAge)'
-    >
-    </div>
     
-
-    <div class="row">
-      <div class='col-md-4'*ngFor='let item of users'>
-          <app-user [user]='item' (eventUsers)='loadUsers()'></app-user>
-      </div>
-      
-    </div>
   </div>
 <!-- <app-new [name]='title'>
   <p class='.p'>sendData-{{content}}</p>
